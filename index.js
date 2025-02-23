@@ -2,7 +2,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { registerFont } = require("canvas");
 const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 const path = require("path");
-
+// #
 const { GlobalFonts } = require('@napi-rs/canvas');
 
 GlobalFonts.registerFromPath(`${__dirname}/assets/fonts/Poppins/Poppins-Regular.ttf`,"Poppins")
